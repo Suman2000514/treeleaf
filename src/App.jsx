@@ -2,7 +2,7 @@ import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/home";
 import Profile from "./pages/Profile";
-import toast, { Toaster } from "react-hot-toast";
+import { Toaster } from "react-hot-toast";
 function App() {
   return (
     <>
