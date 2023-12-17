@@ -4,7 +4,7 @@ import Modal from "../components/Modal";
 import { Link } from "react-router-dom";
 import toast from "react-hot-toast";
 
-const Profile = ({}) => {
+const profile = ({}) => {
   const [allUserData, setAllUserData] = useState([]);
   const [sortOrder, setSortOrder] = useState("asc");
   const [selectedUserData, setSelectedUserData] = useState(null);
@@ -139,4 +139,4 @@ const Profile = ({}) => {
   );
 };
 
-export default Profile;
+export default profile;
