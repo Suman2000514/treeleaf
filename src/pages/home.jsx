@@ -151,7 +151,6 @@ const Home = () => {
 
   const resetForm = () => {
     try {
-      localStorage.clear();
       setUserData({
         name: "",
         email: "",
@@ -162,7 +161,7 @@ const Home = () => {
         province: "",
         country: "Nepal",
       });
-      setAllUserData([]);
+      setUserData([]);
     } catch (error) {
       console.error("Error clearing data from localStorage:", error);
     }
